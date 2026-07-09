@@ -18,6 +18,9 @@
 !/backend/tmp/pids/
 !/backend/tmp/pids/.keep
 
+# Ignore vendor directory.
+/backend/vendor/bundle
+
 # Ignore storage (uploaded files in development and any SQLite databases).
 /backend/storage/*
 !/backend/storage/.keep
